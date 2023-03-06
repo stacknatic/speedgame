@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+#game-score {
+    font-size: 2rem;
+}
+
+body {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.symbol-container {
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol {
+    background-color: gray;
+    background-image: url(blank.jpg);
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: none;
+    margin: 2rem;
+}
+@media (max-width: 463px){
+    .symbol {
+        background-color: gray;
+        background-image: url(blank.jpg);
+        background-size: cover;
+        width: 5.5rem;
+        height: 5.5rem;
+        border-radius: 50%;
+        border: none;
+        margin: 2rem;
+    }
+
+}
+@media (max-width: 382px){
+    .symbol {
+        background-color: gray;
+        background-image: url(blank.jpg);
+        background-size: cover;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border: none;
+        margin: 2rem;
+    }
+
+}
+@media (max-width: 333px){
+    .symbol {
+        background-color: gray;
+        background-image: url(blank.jpg);
+        background-size: cover;
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 50%;
+        border: none;
+        margin: 2rem;
+    }
+
+}
+.symbol.pic {
+    background: url('squirrel.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.symbol.missed {
+    background: url('blank.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#start,
+#stop {
+    display: none;
+}
+
+.start-button,
+.end-button {
+    margin: auto;
+    display: block;
+    padding: 0.5rem;
+    border: 1px gray solid;
+    width: 4rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: #1f1f1f;
+
+}
+
+.buttons-container {
+    position: relative;
+}
+
+.start-button {
+    position: absolute;
+    right: -2rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-button {
+    display: none;
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 10%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* z-index: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+
+}
+
+.modal-container.visible {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+
+.modal-box {
+    border: 1px gray solid;
+    border-radius: 15px;
+    width: 26rem;
+    height: 26rem;
+    padding: 10px;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1rem;
+
+    /* opacity: 1; */
+}
+
+.modal-close-button {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.camera {
+    width: 20rem;
+    border-radius: 0.7rem;
+    margin-top: 5rem;
+}
