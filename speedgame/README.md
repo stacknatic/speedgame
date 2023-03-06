@@ -6,7 +6,7 @@
 - Your goal is to take as many shots as you can.
 - The speed increases after each click.
 
-## How the ends
+## How the game ends
 - Game ends if the player clicks the wrong circle.
 - Game ends if the player fails to click more tha three times.
 - Player can click the end button to end the game.
