@@ -23,8 +23,6 @@ const modalContainer = document.querySelector('.modal-container')
 
 const feedback = document.querySelector('.feedback')
 
-// const fastShutter = document.querySelector('#fast-shutter')
-
 const fastShutter = new Audio('fast_shutter.mp3')
 
 const slowShutter = new Audio('slow_shutter.mp3')
