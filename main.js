@@ -27,7 +27,7 @@ const fastShutter = new Audio('fast_shutter.mp3')
 
 const slowShutter = new Audio('slow_shutter.mp3')
 
-fastShutter.playbackRate = 1.0
+// fastShutter.playbackRate = 1.0
 
 let intervalId = setInterval(timer, timeout)
 function timer () {
@@ -42,7 +42,7 @@ function timer () {
     shuffle()
     clearInterval(intervalId)
     timeout -= 5
-    fastShutter.playbackRate += 0.025
+    // fastShutter.playbackRate += 0.025
 
     intervalId = setInterval(timer, timeout)
 
@@ -161,7 +161,7 @@ function checkPick () {
   } else if (start.checked === true && this.value !== active) {
     clearInterval(intervalId)
     slowShutter.play()
-    fastShutter.playbackRate = 1
+    // fastShutter.playbackRate = 1
     score.textContent = 0
 
     modalContainer.classList.add('visible')
