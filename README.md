@@ -10,3 +10,6 @@
 - Game ends if the player clicks the wrong circle.
 - Game ends if the player fails to click more tha three times.
 - Player can click the end button to end the game.
+
+### Screenshot
+![Speedgame](speedgame.png "Speedgame screenshot")
