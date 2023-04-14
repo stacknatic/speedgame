@@ -69,6 +69,10 @@ function timer () {
     end.checked = true
     start.checked = false
     clearInterval(intervalId)
+<<<<<<< HEAD
+=======
+    // fastShutter.playbackRate = 1
+>>>>>>> 44ec0b2 (added favicon.ico)
     timeout = 1000
     slowShutter.play()
     for (const each of symbolsArray) {
@@ -160,6 +164,10 @@ function checkPick () {
   } else if (start.checked === true && this.value !== active) {
     clearInterval(intervalId)
     slowShutter.play()
+<<<<<<< HEAD
+=======
+    fastShutter.playbackRate = 1
+>>>>>>> 44ec0b2 (added favicon.ico)
     score.textContent = 0
 
     modalContainer.classList.add('visible')
