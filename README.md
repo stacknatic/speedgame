@@ -14,4 +14,4 @@
 ### Screenshot
 ![Speedgame](speedgame.png "Speedgame screenshot")
 
-Live url: [speedgame](https://aces563.github.io/speedgame/)
+Live url: [speedgame](https://stacknatic.github.io/speedgame/)
