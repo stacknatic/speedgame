@@ -15,3 +15,5 @@
 ![Speedgame](speedgame.png "Speedgame screenshot")
 
 Live url: [speedgame](https://stacknatic.github.io/speedgame/)
+
+[![Quality Gate Status](http://localhost:9000/api/project_badges/measure?project=sonar_group&metric=alert_status&token=sqb_3d3ce03653a134fbbd7253f2d4d97cedf874732c)](http://localhost:9000/dashboard?id=sonar_group)
